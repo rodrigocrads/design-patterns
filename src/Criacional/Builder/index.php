@@ -2,12 +2,12 @@
 
 require_once('../../../vendor/autoload.php');
 
-$montadoraDeFogueteTestI = new App\Builder\FabricaFoguetesDirector(
-    new App\Builder\FogueteModeloIBuilder()
+$montadoraDeFogueteTestI = new App\Criacional\Builder\FabricaFoguetesDirector(
+    new App\Criacional\Builder\FogueteModeloIBuilder()
 );
 
-$montadoraDeFogueteTestII = new App\Builder\FabricaFoguetesDirector(
-    new App\Builder\FogueteModeloIIBuilder()
+$montadoraDeFogueteTestII = new App\Criacional\Builder\FabricaFoguetesDirector(
+    new App\Criacional\Builder\FogueteModeloIIBuilder()
 );
 
 $montadoraDeFogueteTestI->construirFoguete();

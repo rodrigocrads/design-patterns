@@ -2,9 +2,9 @@
 
 require_once('../../../vendor/autoload.php');
 
-$impostosAlimentacao = new \App\TemplateMethod\ImpostosAlimentacao();
-$impostosVestuario = new \App\TemplateMethod\ImpostosVestuario();
-$impostosEletronicos = new \App\TemplateMethod\ImpostosEletronicos();
+$impostosAlimentacao = new \App\Comportamental\TemplateMethod\ImpostosAlimentacao();
+$impostosVestuario = new \App\Comportamental\TemplateMethod\ImpostosVestuario();
+$impostosEletronicos = new \App\Comportamental\TemplateMethod\ImpostosEletronicos();
 
 echo "Preço final de alimentação: {$impostosAlimentacao->calculaImpostosProduto(10)}";
 echo "\n";

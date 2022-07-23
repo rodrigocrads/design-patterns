@@ -1,6 +1,6 @@
 <?php
 
-namespace App\FactoryMethod\Product;
+namespace App\Criacional\FactoryMethodProduct;
 
 class DodgeCharger implements CarroProduct
 {

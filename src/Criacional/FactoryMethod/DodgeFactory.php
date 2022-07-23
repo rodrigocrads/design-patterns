@@ -2,9 +2,9 @@
 
 namespace App\FactoryMethod;
 
-use App\FactoryMethod\Product\CarroProduct;
-use App\FactoryMethod\Product\DodgeCharger;
-use App\FactoryMethod\Product\DodgeDart;
+use App\Criacional\FactoryMethodProduct\CarroProduct;
+use App\Criacional\FactoryMethodProduct\DodgeCharger;
+use App\Criacional\FactoryMethodProduct\DodgeDart;
 
 class DodgeFactory
 {

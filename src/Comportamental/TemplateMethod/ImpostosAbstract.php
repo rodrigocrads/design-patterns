@@ -1,6 +1,6 @@
 <?php 
 
-namespace App\TemplateMethod;
+namespace App\Comportamental\TemplateMethod;
 
 abstract class ImpostosAbstract
 {

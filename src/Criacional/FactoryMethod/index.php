@@ -2,8 +2,8 @@
 
 require_once('../../../vendor/autoload.php');
 
-$teslaFactory = new App\FactoryMethod\TeslaFactory();
-$dodgeFactory = new App\FactoryMethod\DodgeFactory();
+$teslaFactory = new App\Criacional\FactoryMethodTeslaFactory();
+$dodgeFactory = new App\Criacional\FactoryMethodDodgeFactory();
 
 try {
     $teslaModeloS = $teslaFactory->criarCarro('modelo_s');

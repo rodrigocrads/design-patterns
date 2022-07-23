@@ -1,6 +1,6 @@
 <?php 
 
-namespace App\TemplateMethod;
+namespace App\Comportamental\TemplateMethod;
 
 class ImpostosVestuario extends ImpostosAbstract
 {

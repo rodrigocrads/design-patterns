@@ -1,6 +1,6 @@
 <?php
 
-namespace Builder;
+namespace App\Criacional\MadSaleBuilder;
 
 class TrackingSimulationDirector
 {

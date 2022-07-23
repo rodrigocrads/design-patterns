@@ -1,6 +1,6 @@
 <?php 
 
-namespace App\Adapter;
+namespace App\Estrutural\Adapter;
 
 class IntegracaoErpAdapter implements IErpAdapter
 {

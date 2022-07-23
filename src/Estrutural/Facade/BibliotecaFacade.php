@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Facade;
+namespace App\Estrutural\Facade;
 
 use Exception;
-use App\Facade\{
+use App\Estrutural\Facade\{
     ModuloControleEstoque, ModuloControleClientes, ModuloEmail, ModuloApiSms
 };
 

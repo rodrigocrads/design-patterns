@@ -2,9 +2,9 @@
 
 namespace App\FactoryMethod;
 
-use App\FactoryMethod\Product\CarroProduct;
-use App\FactoryMethod\Product\TeslaModeloS;
-use App\FactoryMethod\Product\TeslaModeloX;
+use App\Criacional\FactoryMethodProduct\CarroProduct;
+use App\Criacional\FactoryMethodProduct\TeslaModeloS;
+use App\Criacional\FactoryMethodProduct\TeslaModeloX;
 
 class TeslaFactory
 {

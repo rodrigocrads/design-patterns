@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Builder;
+namespace App\Criacional\Builder;
 
 class FogueteModeloIBuilder extends FogueteBuilder
 {

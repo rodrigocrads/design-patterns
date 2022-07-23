@@ -1,6 +1,6 @@
 <?php
 
-use App\Facade\BibliotecaFacade;
+use App\Estrutural\Facade\BibliotecaFacade;
 
 require_once('../../../vendor/autoload.php');
 
