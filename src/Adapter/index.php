@@ -1,6 +1,6 @@
 <?php
 
-require_once('../../../vendor/autoload.php');
+require_once('../../vendor/autoload.php');
 
 $integracaoLegado = new \App\Adapter\IntegracaoErp();
 

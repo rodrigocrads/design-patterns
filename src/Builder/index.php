@@ -1,6 +1,6 @@
 <?php
 
-require_once('../../../vendor/autoload.php');
+require_once('../../vendor/autoload.php');
 
 $montadoraDeFogueteTestI = new App\Builder\FabricaFoguetesDirector(
     new App\Builder\FogueteModeloIBuilder()
