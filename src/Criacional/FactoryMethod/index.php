@@ -1,6 +1,6 @@
 <?php
 
-require_once('../../vendor/autoload.php');
+require_once('../../../vendor/autoload.php');
 
 $teslaFactory = new App\FactoryMethod\TeslaFactory();
 $dodgeFactory = new App\FactoryMethod\DodgeFactory();

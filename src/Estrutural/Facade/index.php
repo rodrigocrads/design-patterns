@@ -2,7 +2,7 @@
 
 use App\Facade\BibliotecaFacade;
 
-require_once('../../vendor/autoload.php');
+require_once('../../../vendor/autoload.php');
 
 $bibliotecaFacade = new BibliotecaFacade();
 
