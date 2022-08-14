@@ -19,4 +19,4 @@ Vantagens:
     - Princípio de responsabilidade única. Você pode isolar um código de construção complexo da lógica de negócio do produto.
 
 Desvantagens:
-    - Pode diminuir a performance da aplicação, quando temos produtos muito complexos que precisam instanciar outros objetos dentro deles.
+    - Reduz performance da aplicação, pois construimos produtos complexos, e dependendo do tipo de produto essa complexidade pode ir muito além, diminuindo ainda mais a performance e consumindo bastante memória, deve-se avaliar o seu uso, conforme o tipo de aplicação.
