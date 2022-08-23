@@ -2,7 +2,7 @@
 
 namespace App\FactoryMethod;
 
-use App\Criacional\FactoryMethodProduct\CarroProduct;
+use App\Criacional\FactoryMethod\Product\CarroProduct;
 
 interface CarroFactory
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace App\FactoryMethod;
+namespace App\Criacional\FactoryMethod;
 
-use App\Criacional\FactoryMethodProduct\CarroProduct;
-use App\Criacional\FactoryMethodProduct\DodgeCharger;
-use App\Criacional\FactoryMethodProduct\DodgeDart;
+use App\Criacional\FactoryMethod\Product\CarroProduct;
+use App\Criacional\FactoryMethod\Product\DodgeCharger;
+use App\Criacional\FactoryMethod\Product\DodgeDart;
 
 class DodgeFactory
 {

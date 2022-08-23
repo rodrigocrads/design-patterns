@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Criacional\FactoryMethodProduct;
+namespace App\Criacional\FactoryMethod\Product;
 
 class TeslaModeloS implements CarroProduct
 {
