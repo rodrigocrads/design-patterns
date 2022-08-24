@@ -15,4 +15,29 @@ class Pedido
     }
 
     // Getters e Setters ...
+    public function getValorTotal()
+    {
+        return $this->valorTotal;
+    }
+
+    public function getNumeroPedido()
+    {
+        return $this->numeroPedido;
+    }
+
+    public function getProdutos()
+    {
+        return $this->produtos;
+    }
+
+    public function setValorTotal($valorTotal)
+    {
+        $this->valorTotal = $valorTotal;
+    }
+
+    public function setNumeroPedido($numeroPedido)
+    {
+        $this->numeroPedido = $numeroPedido;
+    }
+
 }
